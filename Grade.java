@@ -38,6 +38,7 @@ class Grade{
 
             Grade g= new Grade(p);
             g.showGrade();
-
+                 in.close();
+                 
         }
     }

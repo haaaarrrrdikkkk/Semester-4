@@ -5,9 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "jdk",
+            "type": "java",
+            "name": "Frequency",
             "request": "launch",
-            "name": "Launch Java App"
+            "mainClass": "Frequency",
+            "projectName": "Semester-4_a895bd6e"
         }
     ]
 }
