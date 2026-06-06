@@ -1,26 +1,28 @@
 import java.util.Scanner;
-class Divisible{
+
+class Divisible {
     int num;
 
-Divisible(int n){
-    num = n;
+    Divisible(int n) {
+        num = n;
 
-}
+    }
 
-void check(){
-    if(num % 5 == 0)
-    System.out.println("Number is divisible by 5");
-    else
-    System.out.println("Number is not divisible by 5");
-}
-public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
+    void check() {
+        if (num % 5 == 0)
+            System.out.println("Number is divisible by 5");
+        else
+            System.out.println("Number is not divisible by 5");
+    }
 
-    System.out.println("Enter a number");
-    int n= in.nextInt();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    Divisible d= new Divisible(n);
-    d.check();
-    
-}
+        System.out.println("Enter a number");
+        int n = sc.nextInt();
+
+        Divisible d = new Divisible(n);
+        d.check();
+
+    }
 }
